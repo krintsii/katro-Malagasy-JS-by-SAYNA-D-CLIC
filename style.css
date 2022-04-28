@@ -7,7 +7,7 @@ body{
 .contenair{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 100px 100px;
+        grid-template-rows: 150px 150px;
         gap: 7px;
         border: 2px solid;
         margin-top: 50px;
@@ -24,4 +24,9 @@ p{
         font-family: 'Times New Roman', Times, serif;
         text-decoration: underline;
         margin-top: 20px;
+}
+.btn {
+        padding: 30px 30px;
+        border-radius: 60px;
+        font-size: 25px;
 }
